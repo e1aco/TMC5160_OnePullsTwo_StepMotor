@@ -1,0 +1,58 @@
+# Build directories
+build/
+build_cl/
+Debug/
+Release/
+_out/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# CMake build artifacts
+_cmake_build.log
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# .cl 权威内容纳入版本控制(供 log/memory 精简的 git 兜底); 仅排除体积/会话产物
+Firmware/TMC5160H7Cmake_StepMotor/.cl/capture/
+Firmware/TMC5160H7Cmake_StepMotor/.cl/datasheet/
+Firmware/TMC5160H7Cmake_StepMotor/.cl/backup_pregen_*/
+Firmware/TMC5160H7Cmake_StepMotor/.cl/backup_reflash/
+Firmware/TMC5160H7Cmake_StepMotor/.cl/sim/
+
+# embeddedskills 运行产物(config.json/state.json 为单源, 保留跟踪)
+Firmware/TMC5160H7Cmake_StepMotor/.embeddedskills/build/
+Firmware/TMC5160H7Cmake_StepMotor/.embeddedskills/logs/
+
+# Python
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.axf
+*.out
+*.d
+*.lst
+
+# STM32 specific
+*.ioc.bak
+*.xml
+*.mxproject
+
+# Hardware history
+Hardhare/StepMotor_2Routes_TMC5160/History/

@@ -1,0 +1,28 @@
+{
+  "gcc": {
+    "project": ".",
+    "preset": "Debug",
+    "log_dir": ".embeddedskills/build"
+  },
+  "openocd": {
+    "interface": "stlink",
+    "target": "stm32h7x",
+    "transport": "swd",
+    "status": "待探测（2026-09-27 probe: Can't find stlink，探针未接）"
+  },
+  "jlink": {
+    "device": "STM32H750VB",
+    "status": "已探测（2026-09-28 info ok：SN 69404465, VTref 3.3V；skill config 已建 V948 路径；flash/read-mem/regs/halt/go/reset/rtt/gdb-backtrace 全过）",
+    "interface": "SWD",
+    "speed": "4000"
+  },
+  "serial": {
+    "baudrate": 115200
+  },
+  "can": {
+    "interface": "pcan",
+    "channel": "PCAN_USBBUS1",
+    "bitrate": 500000,
+    "data_bitrate": 2000000
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "exclude": [
+    "Drivers/",
+    "Middlewares/",
+    "MDK-ARM/",
+    "build/",
+    "build_cl/"
+  ]
+}

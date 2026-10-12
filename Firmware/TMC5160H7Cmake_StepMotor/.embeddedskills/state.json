@@ -1,0 +1,63 @@
+{
+  "last_build": {
+    "provider": "gcc",
+    "action": "build",
+    "project": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor",
+    "preset": "Debug",
+    "log_dir": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor\\.embeddedskills\\build",
+    "artifacts": {
+      "build_dir": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor\\build_cl",
+      "elf_file": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor\\build_cl\\TMC5160H7_StepMotor.elf",
+      "debug_file": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor\\build_cl\\TMC5160H7_StepMotor.elf",
+      "flash_file": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor\\build_cl\\TMC5160H7_StepMotor.elf",
+      "log_file": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor\\.embeddedskills\\build\\TMC5160H7Cmake_StepMotor-Debug-build.log"
+    },
+    "build_dir": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor\\build_cl",
+    "elf_file": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor\\build_cl\\TMC5160H7_StepMotor.elf",
+    "debug_file": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor\\build_cl\\TMC5160H7_StepMotor.elf",
+    "flash_file": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor\\build_cl\\TMC5160H7_StepMotor.elf",
+    "log_file": "C:\\Users\\admin\\Desktop\\XM\\ELACO_StepMotorTMC5160\\Firmware\\TMC5160H7Cmake_StepMotor\\.embeddedskills\\build\\TMC5160H7Cmake_StepMotor-Debug-build.log",
+    "timestamp": "2026-10-08T15:18:07+08:00"
+  },
+  "last_debug": {
+    "provider": "jlink",
+    "action": "backtrace",
+    "device": "STM32H750VB",
+    "interface": "SWD",
+    "speed": "4000",
+    "serial_no": "",
+    "debug_file": "build_cl/TMC5160H7_StepMotor.elf",
+    "artifacts": {
+      "debug_file": "build_cl/TMC5160H7_StepMotor.elf"
+    },
+    "timestamp": "2026-09-30T11:15:29+08:00"
+  },
+  "last_flash": {
+    "provider": "jlink",
+    "action": "flash",
+    "device": "STM32H750VB",
+    "interface": "SWD",
+    "speed": "4000",
+    "serial_no": "",
+    "timestamp": "2026-09-30T09:50:57+08:00"
+  },
+  "last_observe": {
+    "provider": "jlink",
+    "action": "rtt",
+    "device": "STM32H750VB",
+    "interface": "SWD",
+    "speed": "4000",
+    "serial_no": "",
+    "channel_type": "rtt",
+    "stream_type": "text",
+    "source": "jlink",
+    "timestamp": "2026-09-30T11:58:19+08:00"
+  },
+  "last_can_send": {
+    "interface": "pcan",
+    "channel": "PCAN_USBBUS1",
+    "id": "0x1AA55F42",
+    "count": 1,
+    "timestamp": "2026-09-29T11:51:36+08:00"
+  }
+}
